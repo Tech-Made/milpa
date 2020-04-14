@@ -1,0 +1,116 @@
+@import "./variables.scss";
+
+input:focus {
+  outline: none;
+}
+
+.semi-title {
+  // font-family: $titlefont;
+  // font-size: 2.4em;
+  // color: $secondary;
+  max-height: 14em;
+}
+
+.text {
+  font-family: $textfont;
+  font-size: 1.2em;
+  letter-spacing: 0.06em;
+  color: $secondary;
+  line-height: 150.3%;
+}
+
+.title {
+  font-family: $titlefont;
+  font-size: 1.6em;
+  letter-spacing: 0.06em;
+  color: $primary;
+  line-height: 150.3%;
+}
+
+.btn {
+  width: 12em;
+  height: 3em;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  // font-family: $textfont;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    -webkit-box-shadow: 3px 13px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 13px 12px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 13px 12px -5px rgba(0, 0, 0, 0.75);
+  }
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-btn {
+  margin-top: 1em;
+}
+
+.btn-primary {
+  background: $primary;
+  color: $white;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 3px;
+  border: none;
+  font-family: $light, serif;
+  cursor: pointer;
+  width: 280px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.long-btn {
+  width: 12em;
+  height: 3em;
+  border: none;
+  color: $primary;
+  background-color: $secondary;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin-left: 2em;
+  // font-family: $textfont;
+  cursor: pointer;
+  transition: 0.2s;
+  &:hover {
+    -webkit-box-shadow: 3px 13px 12px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 13px 12px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 13px 12px -5px rgba(0, 0, 0, 0.75);
+  }
+}
+
+// .dark {
+//     background-color: $dark;
+// }
+
+// .light {
+//     background-color: $primary;
+// }
+
+// .blue {
+//     color: $primary;
+// }
+
+@media screen and (max-width: 480px) {
+  .btn {
+    width: 12em;
+    height: 2.8em;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-family: "AvenirNext-Regular", serif;
+    cursor: pointer;
+    transition: 0.2s;
+    margin-bottom: 1.2em;
+  }
+}

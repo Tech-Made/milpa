@@ -1,0 +1,50 @@
+@import "./variables.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  background-color: #ffffff;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 46px;
+  color: $primary;
+  font-family: $light;
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 46px;
+  font-family: $h1;
+}
+
+h3 {
+  font-size: 36px;
+  font-family: $h1;
+  margin-bottom: 16px;
+}
+
+.inverse {
+  color: $secondary;
+}
+
+.pl {
+  margin-left: -2em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@import "./layouts.scss";
+@import "./library.scss";
