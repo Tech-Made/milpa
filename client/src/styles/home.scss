@@ -197,3 +197,65 @@
 //   .home {
 //   }
 // }
+
+@media screen and (max-width: 480px) {
+  .home {
+    .slogan {
+      max-width: 86vw;
+      margin: 16px auto 0 auto;
+      font-size: 16px;
+    }
+
+    .home-logo {
+      width: 180px;
+    }
+    .sidebar {
+      display: none;
+    }
+    .topbox {
+      width: 100vw;
+      padding: 16px 4vw;
+      height: auto;
+      margin-top: 24px;
+      margin-bottom: 0px;
+      p {
+        font-size: 16px;
+      }
+    }
+    .mid-section {
+      padding: 5em 1em 0em 1em;
+      .line {
+        width: 80vw;
+      }
+    }
+    .services-section {
+      padding: 0 1em;
+      .content {
+        .price-section {
+          flex-direction: column;
+          .price-box {
+            width: 90vw;
+            min-height: 24em;
+            height: auto;
+            margin-bottom: 1.4em;
+          }
+        }
+        .bestfit-text {
+          font-size: 16px;
+        }
+      }
+    }
+    .partners-section {
+      .content {
+        margin-top: 0;
+        flex-direction: column;
+        .partner {
+          margin-top: 1.2em;
+        }
+      }
+      h3 {
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

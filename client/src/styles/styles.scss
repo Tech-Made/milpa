@@ -46,5 +46,30 @@ html {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 480px) {
+  p {
+    margin: 0;
+    padding: 0;
+    line-height: 32px;
+    color: $primary;
+    font-family: $light;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-family: $h1;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-family: $h1;
+    margin-bottom: 16px;
+  }
+  .pl {
+    margin-left: 0em;
+  }
+}
+
 @import "./layouts.scss";
 @import "./library.scss";
