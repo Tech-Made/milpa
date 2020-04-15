@@ -8,14 +8,14 @@ const Footer = () => {
   return (
     <footer>
       {/* <img alt="Grove" className="footer-logo" src={logofullwhite} /> */}
-      <a
-        className="igIcon"
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://instagram.com/the_groveaurora"
-      >
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
+      {/* <a
+          className="igIcon"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://instagram.com/the_groveaurora"
+        >
+          <FontAwesomeIcon icon={faInstagram} size="2x" />
+        </a> */}
     </footer>
   );
 };
