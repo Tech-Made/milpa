@@ -32,27 +32,31 @@ const NavBar = () => {
               </a>
             </li>
             <li>
-              <a class="header-text hover" target="_onblank" href="">
+              <a class="header-text hover" href="#about">
                 about
               </a>
             </li>
             <li>
-              <a class="header-text hover" href="#projects-section">
-                community
-              </a>
-            </li>
-            <li>
-              <Link to="/founder" class="header-text hover">
-                founder
-              </Link>
-            </li>
-            <li>
-              <a class="header-text hover" href="#projects-section">
+              <a class="header-text hover" href="#services">
                 services
               </a>
             </li>
             <li>
-              <a class="header-text hover" href="#projects-section">
+              <a href="/founder" class="header-text hover">
+                founder
+              </a>
+            </li>
+            <li>
+              <a class="header-text hover" href="#community">
+                community
+              </a>
+            </li>
+            <li>
+              <a
+                class="header-text hover"
+                target="_blank"
+                href="https://calendly.com/veronica-milpa/free-consultation?month=2020-04"
+              >
                 contact
               </a>
             </li>

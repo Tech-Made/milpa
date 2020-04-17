@@ -1,5 +1,5 @@
 import React from "react";
-// import logofullwhite from '../../assets/logos/logofullwhite.png';
+import logo from "../../assets/logos/logo-white.png";
 import "../../styles/footer.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -7,7 +7,7 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <footer>
-      {/* <img alt="Grove" className="footer-logo" src={logofullwhite} /> */}
+      <img alt="Milpa" className="footer-logo" src={logo} />
       {/* <a
           className="igIcon"
           target="_blank"

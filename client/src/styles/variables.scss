@@ -21,6 +21,11 @@ $white: #ffffff;
 }
 
 @font-face {
+  font-family: "ThinItalic";
+  src: url("../assets/fonts/Roboto/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
   font-family: "light";
   src: url("../assets/fonts/Roboto/Roboto-Light.ttf");
 }
@@ -46,3 +51,4 @@ $h1: "h1", serif;
 $bold: "black", serif;
 $titlefont: "title", serif;
 $regular: "regular", serif;
+$thinitalic: "ThinItalic", serif;

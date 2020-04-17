@@ -58,28 +58,6 @@ const Mid = () => {
         )}
       </div>
       <div className="line"></div>
-
-      <div className="principles-section">
-        <h2 className="inverse">our rooted principles</h2>
-
-        <h3 className="inverse pl">reimagined</h3>
-        <p className="inverse">
-          In order to disrupt systematic inequalities - we need to reimagine the
-          path forward with unconventional yet straightforward solutions.
-        </p>
-
-        <h3 className="inverse pl">relevant</h3>
-        <p className="inverse">
-          We seek to solve issues that are immediate to our community through
-          culturally relevant strategies.
-        </p>
-
-        <h3 className="inverse pl">reliable</h3>
-        <p className="inverse">
-          Trust is the base of our movement. As we solve big problems we want
-          you to pursue even BIGGER dreams with us.
-        </p>
-      </div>
     </div>
   );
 };

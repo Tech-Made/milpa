@@ -2,6 +2,7 @@ import React from "react";
 import "../../styles/home.scss";
 import Top from "../components/Home/Top";
 import Mid from "../components/Home/Mid";
+import Principles from "../components/Home/Principles";
 import Services from "../components/Home/Services";
 import Partners from "../components/Home/Partners";
 import Community from "../components/Home/Community";
@@ -10,10 +11,17 @@ const Home = () => {
   return (
     <div className="home">
       <Top />
-      <Mid />
-      <Services />
+      <div id="about">
+        <Mid />
+      </div>
+      <Principles />
+      <div id="services">
+        <Services />
+      </div>
       <Partners />
-      <Community />
+      <div id="community">
+        <Community />
+      </div>
     </div>
   );
 };
