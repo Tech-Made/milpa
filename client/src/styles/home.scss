@@ -100,7 +100,7 @@
       background-color: $primary;
       clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
       padding-bottom: 8em;
-      padding-top: 8em;
+      padding-top: 2em;
       position: relative;
       z-index: -3;
       .content {
@@ -272,13 +272,27 @@
     }
     .mid-section {
       padding: 5em 1em 0em 1em;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
+      .content {
+        padding-top: 3em;
+      }
       .line {
         width: 80vw;
       }
     }
     .services-section {
       padding: 0 1em;
+      .top-bg {
+        padding-bottom: 3em;
+        padding-top: 0em;
+        .content {
+          padding-top: 2em;
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+      }
       .content {
+        margin: -6em auto 0 auto;
         .price-section {
           flex-direction: column;
           .price-box {
@@ -300,9 +314,19 @@
         .partner {
           margin-top: 1.2em;
         }
+        .commbg {
+          margin-top: 1em;
+          max-width: 90vw;
+        }
       }
       h3 {
         margin-bottom: 24px;
+      }
+    }
+    .principles-section {
+      .header {
+        line-height: 46px;
+        font-size: 32px;
       }
     }
   }

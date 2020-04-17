@@ -66,3 +66,48 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .founder-page {
+    .top {
+      .roles {
+        display: none;
+      }
+      .me {
+        flex-direction: column;
+        padding-left: 2em;
+        padding-right: 2em;
+        margin-top: 0;
+        margin-bottom: 4em;
+        margin-left: 0;
+        margin-right: 0;
+        .veronica {
+          width: auto;
+          margin-bottom: 1em;
+          a {
+            display: none;
+          }
+        }
+        div {
+          .avatar {
+            max-width: 14em;
+          }
+        }
+      }
+    }
+    .content {
+      margin: 2em auto 2em auto;
+      iframe {
+        width: 75vw;
+      }
+      .heading {
+        margin-top: 1em;
+        font-size: 24px;
+        max-width: 94vw;
+      }
+    }
+    .sidebar {
+      display: none;
+    }
+  }
+}
