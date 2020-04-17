@@ -5,7 +5,7 @@ const Mid = () => {
   return (
     <div className="mid-section">
       <div className="content">
-        <h2 className="h1 inverse pl">what is milpa</h2>
+        <h2 className="h1 inverse pl">what is milpa?</h2>
         {open ? (
           <p className="inverse short">
             Our mission at milpa is to pay homage to our culture by rooting our
@@ -57,7 +57,7 @@ const Mid = () => {
           </>
         )}
       </div>
-      <div className="line"></div>
+      {/* <div className="line"></div> */}
     </div>
   );
 };

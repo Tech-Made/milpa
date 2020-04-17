@@ -3,12 +3,11 @@ import React from "react";
 const Principles = () => {
   return (
     <div className="principles-section">
-      <em>
-        <p className="header">
-          eveything we do is <span>rooted</span> in these{" "}
-          <span>principles</span>
-        </p>
-      </em>
+      {/* <em> */}
+      <p className="header">
+        everything we do is <span>rooted</span> in these <span>principles</span>
+      </p>
+      {/* </em> */}
       <div className="line"></div>
       <div className="content">
         <div>
