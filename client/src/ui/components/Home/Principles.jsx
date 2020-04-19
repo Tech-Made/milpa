@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Principles = () => {
+  const [r1, setR1] = useState(false);
+  const [r2, setR2] = useState(false);
+  const [r3, setR3] = useState(false);
+
   return (
     <div className="principles-section">
       {/* <em> */}
@@ -10,23 +14,38 @@ const Principles = () => {
       {/* </em> */}
       <div className="line"></div>
       <div className="content">
-        <div>
+        <div
+          onClick={() => setR1(!r1)}
+          onMouseEnter={() => setR1(true)}
+          onMouseLeave={() => setR1(false)}
+          className={r1 && "content-border"}
+        >
           <h2 className="h2">reimagined 💡</h2>
-          <p>
+          <p style={{ visibility: r1 ? "initial" : "hidden" }}>
             In order to disrupt systematic inequalities - we need to reimagine
             the path forward with unconventional yet straightforward solutions.
           </p>
         </div>
-        <div>
+        <div
+          onClick={() => setR2(!r2)}
+          onMouseEnter={() => setR2(true)}
+          onMouseLeave={() => setR2(false)}
+          className={r2 && "content-border"}
+        >
           <h2 className="h2">relevant 🎯</h2>
-          <p>
+          <p style={{ visibility: r2 ? "initial" : "hidden" }}>
             We seek to solve issues that are immediate to our community through
             culturally relevant strategies.
           </p>
         </div>
-        <div>
+        <div
+          onClick={() => setR3(!r3)}
+          onMouseEnter={() => setR3(true)}
+          onMouseLeave={() => setR3(false)}
+          className={r3 && "content-border"}
+        >
           <h2 className="h2">reliable 🤝</h2>
-          <p>
+          <p style={{ visibility: r3 ? "initial" : "hidden" }}>
             Trust is the base of our movement. As we solve big problems we want
             you to pursue even BIGGER dreams with us.{" "}
           </p>

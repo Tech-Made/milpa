@@ -1,8 +1,14 @@
 @import "./variables.scss";
 
 nav {
-  padding: 8px;
+  padding: 4px;
   background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  background-color: $white;
+  height: 3.6em;
+  background-color: white;
 }
 a {
   text-decoration: none !important;
@@ -30,6 +36,8 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 nav ul li {
   display: inline-block;
@@ -37,14 +45,14 @@ nav ul li {
 }
 
 nav ul li:first-child {
-  margin-right: 24px;
+  margin-right: 14px;
 }
 
 nav ul li:not(:first-child) {
-  margin-left: 24px;
+  margin-left: 14px;
 }
 nav ul li:not(:first-child) {
-  margin-right: 24px;
+  margin-right: 14px;
 }
 nav ul li a {
   outline: none;
@@ -54,9 +62,23 @@ nav ul li a {
   font-weight: 600;
 }
 
+// Not working yet
+nav ul li a:before {
+  content: "";
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+nav ul li a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 .nav-logo {
   max-width: 3.2em;
-  color: blue;
 }
 
 @media screen and (max-width: 864px) {
@@ -123,7 +145,7 @@ nav ul li a {
     width: 48px;
     height: 48px;
     cursor: pointer;
-    z-index: 9999;
+    z-index: 99;
     border-radius: 50%;
   }
   .nav-btn i {
@@ -175,7 +197,7 @@ nav ul li a {
   transform: translateY(-6px) rotate(-90deg);
 }
 #nav:checked ~ .nav-wrapper {
-  z-index: 9990;
+  z-index: 90;
   opacity: 1;
 }
 #nav:checked ~ .nav-wrapper ul li a {

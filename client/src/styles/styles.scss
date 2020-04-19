@@ -38,6 +38,10 @@ h3 {
   color: $secondary;
 }
 
+.bold {
+  font-family: $regular;
+}
+
 .pl {
   margin-left: -2em;
 }
@@ -45,6 +49,12 @@ h3 {
 html {
   scroll-behavior: smooth;
 }
+
+// html:not([data-scroll="0"]) {
+//   .nav-logo {
+//     display: none;
+//   }
+// }
 
 @media screen and (max-width: 480px) {
   p {

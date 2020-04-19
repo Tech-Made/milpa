@@ -5,6 +5,56 @@ const Top = () => {
   return (
     <div className="content">
       <h2 className="heading">
+        Scaling Latinx ventures through a comprehensive innovation ecosystem
+      </h2>
+
+      <em>
+        <p className="subheading">Latinx Incubator Chicago</p>
+      </em>
+
+      <p>
+        Veronica moved back to Chicago to connect Latinx founders to growth
+        opportunities. She began this work as the{" "}
+        <strong>Director of the Latinx Incubator</strong>, a Chicago based
+        pre-accelerator program aimed to support early stage Latinx
+        entrepreneurs building technology ventures.
+      </p>
+
+      <iframe
+        src="https://player.vimeo.com/video/408711045"
+        width="640"
+        height="360"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+
+      <em>
+        <p className="subheading">
+          Manager of ChicagoNEXT at World Business Chicago
+        </p>
+      </em>
+      <p>
+        In her role on the NEXT team, Veronica focused on driving inclusive
+        economic growth through innovation in Chicago. This includes a core
+        emphasis on driving and retaining diverse talent to leading tech
+        companies in Chicago through{" "}
+        <a target="_blank" href="http://www.thinkchicago.net/">
+          ThinkChicago
+        </a>
+        - a national attraction program.
+      </p>
+
+      <em>
+        <p className="subheading">Educational Background</p>
+      </em>
+      <p>
+        Veronica attended The University of Pennsylvania and is a proud Chicago
+        native. She is thrilled to be back in her hometown working on a movement
+        to empower underrepresented entrepreneurs to build upward social and
+        economic mobility through technological innovation.
+      </p>
+      <h2 className="heading">
         Innovating the federal government through a digital transformation
       </h2>
       <em>
@@ -84,57 +134,6 @@ const Top = () => {
         entrepreneurs shaped pilot concepts aimed to address the major
         strategic, business and organizational challenges of established
         corporations and institutions.
-      </p>
-
-      <h2 className="heading">
-        Scaling Latinx ventures through a comprehensive innovation ecosystem
-      </h2>
-
-      <em>
-        <p className="subheading">Latinx Incubator Chicago</p>
-      </em>
-
-      <p>
-        Veronica moved back to Chicago to connect Latinx founders to growth
-        opportunities. She began this work as the{" "}
-        <strong>Director of the Latinx Incubator</strong>, a Chicago based
-        pre-accelerator program aimed to support early stage Latinx
-        entrepreneurs building technology ventures.
-      </p>
-
-      <iframe
-        src="https://player.vimeo.com/video/408711045"
-        width="640"
-        height="360"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-      ></iframe>
-
-      <em>
-        <p className="subheading">
-          Manager of ChicagoNEXT at World Business Chicago
-        </p>
-      </em>
-      <p>
-        In her role on the NEXT team, Veronica focused on driving inclusive
-        economic growth through innovation in Chicago. This includes a core
-        emphasis on driving and retaining diverse talent to leading tech
-        companies in Chicago through{" "}
-        <a target="_blank" href="http://www.thinkchicago.net/">
-          ThinkChicago
-        </a>
-        - a national attraction program.
-      </p>
-
-      <em>
-        <p className="subheading">Educational Background</p>
-      </em>
-      <p>
-        Veronica attended The University of Pennsylvania and is a proud Chicago
-        native. She is thrilled to be back in her hometown working on a movement
-        to empower underrepresented entrepreneurs to build upward social and
-        economic mobility through technological innovation.
       </p>
     </div>
   );

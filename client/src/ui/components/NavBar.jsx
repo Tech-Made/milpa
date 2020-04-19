@@ -1,9 +1,9 @@
 import React from "react";
 import "../../styles/navbar.scss";
 import logoblack from "../../assets/logos/logo-black.png";
-import { Link } from "react-router-dom";
+import provideScrollPosition from "react-provide-scroll-position";
 
-const NavBar = () => {
+const NavBar = ({ scrollTop, scrollLeft }) => {
   return (
     <nav class="navbar">
       <input type="checkbox" id="nav" class="hidden" />
@@ -12,12 +12,13 @@ const NavBar = () => {
         <i></i>
         <i></i>
       </label>
-      {/* {{!-- <div class="logo hidden">
-    </div> --}} */}
       <div class="nav-wrapper">
         <ul>
           <li>
             <img
+              style={{
+                visibility: scrollTop < 200 ? "hidden" : "initial"
+              }}
               className="nav-logo"
               target="_blank"
               rel="noopener noreferrer"
@@ -67,4 +68,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default provideScrollPosition(NavBar);
