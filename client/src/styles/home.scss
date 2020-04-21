@@ -248,12 +248,12 @@
     }
   }
   .partners-section {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding-bottom: 64px;
+    padding-bottom: 36px;
     h3 {
       text-align: center;
-      margin-bottom: 46px;
+      margin-bottom: 36px;
     }
     .content {
       display: flex;
@@ -262,8 +262,44 @@
       margin-top: 2em;
       margin-bottom: 4em;
       .partner {
-        width: 300px;
-        min-height: 100px;
+        width: 314px;
+        background-color: #0b0b0b;
+        text-align: center;
+        .title {
+          font-size: 20px;
+          font-family: $regular;
+          color: #e5e5e5;
+          text-align: center;
+          padding-top: 8px;
+          padding-bottom: 8px;
+        }
+        // height: 400px;
+        img {
+          max-width: 314px;
+        }
+        .bottom {
+          background-color: #f2f2f2;
+          height: 160px;
+          padding-left: 14px;
+          padding-right: 14px;
+          .title {
+            font-size: 20px;
+            font-family: $regular;
+            color: $primary;
+            text-align: center;
+            padding-top: 8px;
+            padding-bottom: 8px;
+          }
+          .text {
+            font-size: 18px;
+            font-family: $light;
+            color: $primary;
+            text-align: center;
+            padding-bottom: 8px;
+            flex: 1;
+            line-height: 24px;
+          }
+        }
       }
       .commbg {
         background-color: $primary;
@@ -284,11 +320,6 @@
 .icon {
   color: $secondary;
 }
-
-// @media screen and (max-width: 480px) {
-//   .home {
-//   }
-// }
 
 @media screen and (max-width: 480px) {
   .home {
@@ -322,6 +353,13 @@
       }
       .line {
         width: 80vw;
+      }
+      .quote {
+        width: auto;
+        padding-bottom: 6em;
+        p {
+          width: auto;
+        }
       }
     }
     .services-section {
@@ -368,9 +406,17 @@
       }
     }
     .principles-section {
+      margin-left: 16px;
+      margin-right: 16px;
       .header {
         line-height: 46px;
         font-size: 32px;
+      }
+      .content {
+        flex-direction: column;
+        div {
+          max-width: 98vw;
+        }
       }
     }
   }

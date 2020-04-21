@@ -8,13 +8,30 @@ const Community = () => {
         Are you an entrepreneur looking to connect with other diverse founders?
       </p>
       <div className="content">
-        {/* <div className="partner"></div> */}
-        <div className="commbg">
-          <h3 className="inverse">Join our Dinner Series</h3>
+        <div className="partner">
+          <p className="inverse title">Comida Familiar</p>
+          <img src="https://i.ibb.co/D4r87ZH/dinner.png" />
+          <div className="bottom">
+            <p className="title">Join our Dinner Series.</p>
+            <p className="text">An entrepreneur dinner series </p>
+          </div>
         </div>
-        <div className="commbg">
-          <h3 className="inverse">Join our Facebook Community</h3>
-        </div>
+        <a
+          href="https://www.facebook.com/groups/453436198776062/"
+          target="_blank"
+        >
+          <div className="partner">
+            <p className="inverse title">Facebook Group</p>
+            <img src="https://i.ibb.co/LZrDrSX/facebookbg.png" />
+            <div className="bottom">
+              <p className="title">Join Here.</p>
+              <p className="text">
+                Join our Private Facebook Group to share your ideas, ask for
+                community input and simply see others hustling like you.
+              </p>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   );

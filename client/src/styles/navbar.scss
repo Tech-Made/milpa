@@ -77,11 +77,23 @@ nav ul li a:hover:before {
   transform: scaleX(1);
 }
 
+.navHide {
+  visibility: hidden;
+}
+
+.navShow {
+  visibility: initial;
+}
+
 .nav-logo {
   max-width: 3.2em;
 }
 
 @media screen and (max-width: 864px) {
+  .navHide {
+    visibility: initial !important;
+  }
+
   .logo {
     padding: 0;
   }
@@ -98,6 +110,7 @@ nav ul li a:hover:before {
     background-color: $lightwhite;
     opacity: 0;
     transition: all 0.2s ease;
+    display: none;
   }
   .nav-wrapper ul {
     position: absolute;
@@ -199,6 +212,7 @@ nav ul li a:hover:before {
 #nav:checked ~ .nav-wrapper {
   z-index: 90;
   opacity: 1;
+  display: block;
 }
 #nav:checked ~ .nav-wrapper ul li a {
   opacity: 1;

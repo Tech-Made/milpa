@@ -2,8 +2,11 @@ import React from "react";
 import "../../styles/navbar.scss";
 import logoblack from "../../assets/logos/logo-black.png";
 import provideScrollPosition from "react-provide-scroll-position";
+import { Link } from "react-router-dom";
 
 const NavBar = ({ scrollTop, scrollLeft }) => {
+  console.log("visibility: scrollTop < 200:", scrollTop < 200);
+
   return (
     <nav class="navbar">
       <input type="checkbox" id="nav" class="hidden" />
@@ -16,10 +19,10 @@ const NavBar = ({ scrollTop, scrollLeft }) => {
         <ul>
           <li>
             <img
-              style={{
-                visibility: scrollTop < 200 ? "hidden" : "initial"
-              }}
-              className="nav-logo"
+              // style={{
+              //   visibility: scrollTop < 200 ? "hidden" : "initial"
+              // }}
+              className={`nav-logo ${scrollTop < 200 ? "navHide" : "navShow"}`}
               target="_blank"
               rel="noopener noreferrer"
               alt="milpa"
@@ -53,13 +56,9 @@ const NavBar = ({ scrollTop, scrollLeft }) => {
               </a>
             </li>
             <li>
-              <a
-                class="header-text hover"
-                target="_blank"
-                href="https://calendly.com/veronica-milpa/free-consultation?month=2020-04"
-              >
+              <Link class="header-text hover" to="/contact">
                 contact
-              </a>
+              </Link>
             </li>
           </div>
         </ul>
