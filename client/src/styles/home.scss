@@ -49,9 +49,10 @@
         text-align: center;
       }
       .short {
-        margin: 0 auto;
+        margin: 0 auto 16px auto;
         text-align: left;
         line-height: 46px;
+        font-size: 21px;
       }
       .readmore {
         margin-top: 1.2em;
@@ -67,7 +68,6 @@
       margin-top: 3em;
       text-align: center;
       p {
-        font-size: 20px;
         color: $white;
       }
     }
@@ -346,10 +346,14 @@
       }
     }
     .mid-section {
-      padding: 5em 1em 0em 1em;
+      padding: 5em 1em 2em 1em;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
       .content {
         padding-top: 3em;
+        .short {
+          line-height: 38px;
+          font-size: 16px;
+        }
       }
       .line {
         width: 80vw;

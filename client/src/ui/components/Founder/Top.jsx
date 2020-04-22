@@ -4,26 +4,33 @@ import Sidebar from "../../components/Sidebar";
 const Top = () => {
   return (
     <div className="top">
-      <h2 className="founder">founder</h2>
+      <div className="row">
+        <div className="blackbar" />
+        <h2 className="founder">founder</h2>
+        <div className="blackbar" />
+      </div>
+
       <div className="roles">
         <div className="role">
           <em>
-            <p>latina in tech</p>
+            <p>Scaling Latinx</p>
           </em>
         </div>
         <div className="role">
           <em>
-            <p>chicago native</p>
-          </em>
-        </div>
-        <div className="role">
-          <em>
-            <p>unconventional strategist</p>
+            <p>Diverse Ventures</p>
           </em>
         </div>
       </div>
       <Sidebar />
       <div className="me">
+        <div>
+          <img
+            className="avatar"
+            src="https://i.ibb.co/xJjnq59/Screen-Shot-2020-04-16-at-10-05-54-PM.png"
+            alt="Veronica"
+          />
+        </div>
         <div className="veronica">
           <h2>Veronica Aguilar</h2>
           <p>
@@ -31,15 +38,10 @@ const Top = () => {
             startups and connecting industry leaders to emerging entrepreneurs.
           </p>
           <a href="#readSection">
-            <button className="btn-primary">Read More</button>
+            <div style={{ marginTop: "12px" }}>
+              <button className="btn-primary">Read More</button>
+            </div>
           </a>
-        </div>
-        <div>
-          <img
-            className="avatar"
-            src="https://i.ibb.co/xJjnq59/Screen-Shot-2020-04-16-at-10-05-54-PM.png"
-            alt="Veronica"
-          />
         </div>
       </div>
     </div>

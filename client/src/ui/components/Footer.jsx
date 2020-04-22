@@ -8,6 +8,12 @@ const Footer = () => {
   return (
     <footer>
       <img alt="Milpa" className="footer-logo" src={logo} />
+      <p>
+        <a style={{ color: "#f1f1f1" }} href="/contact">
+          Contact
+        </a>{" "}
+        - veronica@hubmilpa.com
+      </p>
       {/* <a
           className="igIcon"
           target="_blank"

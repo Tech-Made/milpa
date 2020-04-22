@@ -21,8 +21,9 @@
     height: 700px;
   }
   .socials > * {
-    display: flex;
+    // display: flex;
     color: $secondary;
+    margin-right: 1em;
   }
 }
 

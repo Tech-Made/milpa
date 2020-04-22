@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 const NavBar = ({ scrollTop, scrollLeft }) => {
   console.log("visibility: scrollTop < 200:", scrollTop < 200);
 
+  const dontShow =
+    window.location.pathname.includes("founder") ||
+    window.location.pathname.includes("contact") ||
+    window.innerWidth < 400;
+
   return (
     <nav class="navbar">
       <input type="checkbox" id="nav" class="hidden" />
@@ -35,30 +40,37 @@ const NavBar = ({ scrollTop, scrollLeft }) => {
                 home
               </a>
             </li>
-            <li>
-              <a class="header-text hover" href="#about">
-                about
-              </a>
-            </li>
-            <li>
-              <a class="header-text hover" href="#services">
-                services
-              </a>
-            </li>
+            {!dontShow && (
+              <>
+                <li>
+                  <a class="header-text hover" href="#about">
+                    about
+                  </a>
+                </li>
+                <li>
+                  <a class="header-text hover" href="#services">
+                    services
+                  </a>
+                </li>
+              </>
+            )}
+
             <li>
               <a href="/founder" class="header-text hover">
                 founder
               </a>
             </li>
+            {!dontShow && (
+              <li>
+                <a class="header-text hover" href="#community">
+                  community
+                </a>
+              </li>
+            )}
             <li>
-              <a class="header-text hover" href="#community">
-                community
-              </a>
-            </li>
-            <li>
-              <Link class="header-text hover" to="/contact">
+              <a class="header-text hover" href="/contact">
                 contact
-              </Link>
+              </a>
             </li>
           </div>
         </ul>

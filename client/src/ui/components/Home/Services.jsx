@@ -5,7 +5,7 @@ const Services = () => {
     <div className="services-section">
       <div className="top-bg">
         <div className="content">
-          <h2 className="inverse h1">Our Services</h2>
+          <h2 className="inverse h1 pl">Our Services</h2>
 
           <p className="inverse">
             We believe everyone should have the basic knowledge and resources
