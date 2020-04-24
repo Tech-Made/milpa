@@ -52,9 +52,7 @@ const Top = () => {
         a movement to Latinx and diverse businesses through tech innovation.
         Veronica attended The University of Pennsylvania.
       </p>
-      <h2 className="heading">
-        Innovating the federal government through a digital transformation
-      </h2>
+      <h2 className="heading">Innovating Highly-Regulated Industries</h2>
       <em>
         <p className="subheading">Public Policy Consulting</p>
       </em>
