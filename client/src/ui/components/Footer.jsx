@@ -12,7 +12,7 @@ const Footer = () => {
         <a style={{ color: "#f1f1f1" }} href="/contact">
           Contact
         </a>{" "}
-        - veronica@hubmilpa.com
+        - veronica@milpaservices.com
       </p>
       {/* <a
           className="igIcon"

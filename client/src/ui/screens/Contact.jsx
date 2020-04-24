@@ -18,7 +18,7 @@ const Contact = () => {
           <span className="bold">Message us</span>
         </p>
         <p className="message-text">Veronica Aguilar</p>
-        <p className="message-text">veronica@hubmilpa.com</p>
+        <p className="message-text">veronica@milpaservices.com</p>
         <div className="socials">
           <a
             style={{ color: "#fafafa" }}
