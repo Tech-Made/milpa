@@ -13,8 +13,8 @@ const Community = () => {
             <p className="inverse title">Comida Familiar</p>
             <img src="https://i.ibb.co/D4r87ZH/dinner.png" />
             <div className="bottom">
-              <p className="title">Join our Dinner Series.</p>
               <p className="text">An entrepreneur dinner series </p>
+              <p className="title">Join Here</p>
             </div>
           </div>
         </a>
@@ -26,11 +26,11 @@ const Community = () => {
             <p className="inverse title">Facebook Group</p>
             <img src="https://i.ibb.co/LZrDrSX/facebookbg.png" />
             <div className="bottom">
-              <p className="title">Join Here.</p>
               <p className="text">
                 Join our Private Facebook Group to share your ideas, ask for
                 community input and simply see others hustling like you.
               </p>
+              <p className="title">Join Here</p>
             </div>
           </div>
         </a>

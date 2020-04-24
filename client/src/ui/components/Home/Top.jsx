@@ -17,7 +17,7 @@ const Top = () => {
           diverse entrepreneurs and communities.
         </p>
       </div>
-      <a href="bit.ly/LatinxSurveyIL" target="_blank">
+      <a href="https://bit.ly/LatinxSurveyIL" target="_blank">
         <img className="covid-link" src={covid} alt="Survey" />
       </a>
     </>

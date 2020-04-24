@@ -43,15 +43,6 @@ const Top = () => {
         - a national attraction program.
       </p>
 
-      <em>
-        <p className="subheading">Background</p>
-      </em>
-      <p>
-        Veronica is a first generation Chicago native that grew up in the
-        Hermosa community. She is thrilled to be back in her hometown working on
-        a movement to Latinx and diverse businesses through tech innovation.
-        Veronica attended The University of Pennsylvania.
-      </p>
       <h2 className="heading">Innovating Highly-Regulated Industries</h2>
       <em>
         <p className="subheading">Public Policy Consulting</p>
@@ -75,23 +66,14 @@ const Top = () => {
       </em>
 
       <p>
-        Veronica began her career in tech innovation in Washington D.C. where
-        she focused on connecting the entrepreneurial ecosystem to key players
-        including enterprise and government. Her first role was at{" "}
-        <a href="https://www.businessfwd.org/" target="_blank">
-          <strong>Business Forward</strong>
-        </a>
-        , a public policy consulting firm. There, she learned how business
-        leaders from across the country advise senior leaders in Washington on
-        how to create jobs and accelerate the U.S. economy through tech and
-        small business innovation.Veronica grew her career as a political
-        appointee in the Obama Administration within the U.S. General Services
-        Administration (GSA). During her time at the GSA, she worked with the
-        Small Business Office and led a National Outreach Education Program for
-        underrepresented businesses. The program’s mission was to enhance
-        opportunities for underrepresented small businesses, startups and
-        entrepreneurs to partner with federal agencies while focusing on
-        transparency in the federal procurement process.
+        Veronica grew her career as a political appointee in the Obama
+        Administration within the U.S. General Services Administration (GSA).
+        During her time at the GSA, she worked with the Small Business Office
+        and led a National Outreach Education Program for underrepresented
+        businesses. The program’s mission was to enhance opportunities for
+        underrepresented small businesses, startups and entrepreneurs to partner
+        with federal agencies while focusing on transparency in the federal
+        procurement process.
       </p>
       <br />
       <p>
@@ -130,6 +112,16 @@ const Top = () => {
         entrepreneurs shaped pilot concepts aimed to address the major
         strategic, business and organizational challenges of established
         corporations and institutions.
+      </p>
+
+      <em>
+        <p className="subheading">Background</p>
+      </em>
+      <p>
+        Veronica is a first generation Chicago native that grew up in the
+        Hermosa community. She is thrilled to be back in her hometown working on
+        a movement to Latinx and diverse businesses through tech innovation.
+        Veronica attended The University of Pennsylvania.
       </p>
     </div>
   );

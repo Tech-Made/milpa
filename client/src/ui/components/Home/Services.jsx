@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Services = () => {
+  // const [open, setOpen] = useState(false);
+
   return (
     <div className="services-section">
       <div className="top-bg">
         <div className="content">
           <h2 className="inverse h1 pl">Our Services</h2>
-
           <div style={{ marginBottom: 2 }}>
             <p className="inverse">
               We believe everyone should have the basic knowledge and resources
@@ -17,30 +18,32 @@ const Services = () => {
               systemic socioeconomic inequity.{" "}
             </p>
           </div>
-
           <br />
-
-          <p className="inverse">
-            <em>This is especially clear for Latinx-owned businesses.</em>
-          </p>
-
-          <div className="quotecontainer">
+          {/* {!open && <button onClick={() => setOpen(true)}>Hel</button>} */}
+          {/* {open && ( */}
+          <>
             <p className="inverse">
-              <em>
-                <span className="quote">
-                  “Over the past 10 years, the number of Latin[x]-owned
-                  businesses grew 34% compared to 1% for all business owners in
-                  the U.S. However, Latin[x]-owned companies tend to remain
-                  smaller than white-owned firms, with average revenues of $1.2
-                  million per year for Latin[x]-owned firms compared to $2.3
-                  million for non-Latin[x]-owned firms” <br />- 2019 STATE OF
-                  LATINO ENTREPRENEURSHIP REPORT by Stanford Latino
-                  Entrepreneurship Initiative
-                </span>
-              </em>
+              <em>This is especially clear for Latinx-owned businesses.</em>
             </p>
-          </div>
 
+            <div className="quotecontainer">
+              <p className="inverse">
+                <em>
+                  <span className="quote">
+                    “Over the past 10 years, the number of Latin[x]-owned
+                    businesses grew 34% compared to 1% for all business owners
+                    in the U.S. However, Latin[x]-owned companies tend to remain
+                    smaller than white-owned firms, with average revenues of
+                    $1.2 million per year for Latin[x]-owned firms compared to
+                    $2.3 million for non-Latin[x]-owned firms” <br />- 2019
+                    STATE OF LATINO ENTREPRENEURSHIP REPORT by Stanford Latino
+                    Entrepreneurship Initiative
+                  </span>
+                </em>
+              </p>
+            </div>
+          </>
+          {/* )} */}
           <h3 className="inverse">Scaling Your Business</h3>
           <p className="inverse">
             Our strategic advising is aimed to scale your business whether
@@ -51,7 +54,6 @@ const Services = () => {
             to us in traditional school systems which perpetuates systemic
             socioeconomic inequity.
           </p>
-
           <p>
             We aim to provide the knowledge and resources necessary to achieve
             your full financial potential. Our strategic advising is aimed to
@@ -150,7 +152,12 @@ const Services = () => {
             programs to attract and engage your target community while
             connecting to your larger ecosystem partners.
           </p>
-          <button className="btn-primary">Schedule Free Consultation</button>
+          <a
+            href="https://calendly.com/veronica-milpa/free-consultation?month=2020-04"
+            target="_blank"
+          >
+            <button className="btn-primary">Schedule Free Consultation</button>
+          </a>
         </div>
       </div>
     </div>
