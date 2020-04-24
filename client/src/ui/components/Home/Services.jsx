@@ -7,14 +7,16 @@ const Services = () => {
         <div className="content">
           <h2 className="inverse h1 pl">Our Services</h2>
 
-          <p className="inverse">
-            We believe everyone should have the basic knowledge and resources
-            necessary to build and run a{" "}
-            <span className="bold">scalable business</span> that is
-            revenue-driven. These financial fundamentals are not typically
-            taught to us in the traditional school system which perpetuates
-            systemic socioeconomic inequity.{" "}
-          </p>
+          <div style={{ marginBottom: 2 }}>
+            <p className="inverse">
+              We believe everyone should have the basic knowledge and resources
+              necessary to build and run a{" "}
+              <span className="bold">scalable business</span> that is
+              revenue-driven. These financial fundamentals are not typically
+              taught to us in the traditional school system which perpetuates
+              systemic socioeconomic inequity.{" "}
+            </p>
+          </div>
 
           <br />
 
@@ -133,7 +135,12 @@ const Services = () => {
           To determine how we can best work with you
         </p>
         <div className="center">
-          <button className="btn-primary">Schedule Free Consultation</button>
+          <a
+            href="https://calendly.com/veronica-milpa/free-consultation?month=2020-04"
+            target="_blank"
+          >
+            <button className="btn-primary">Schedule Free Consultation</button>
+          </a>
         </div>
 
         <div className="npo">

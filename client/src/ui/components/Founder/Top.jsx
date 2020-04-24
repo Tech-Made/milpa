@@ -13,12 +13,17 @@ const Top = () => {
       <div className="roles">
         <div className="role">
           <em>
-            <p>Scaling Latinx</p>
+            <p>Latina in Tech</p>
           </em>
         </div>
         <div className="role">
           <em>
-            <p>Diverse Ventures</p>
+            <p>Chicago Native</p>
+          </em>
+        </div>
+        <div className="role">
+          <em>
+            <p>Unconventional Strategist</p>
           </em>
         </div>
       </div>

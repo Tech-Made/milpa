@@ -4,9 +4,7 @@ import Sidebar from "../../components/Sidebar";
 const Top = () => {
   return (
     <div className="content">
-      <h2 className="heading">
-        Scaling Latinx ventures through a comprehensive innovation ecosystem
-      </h2>
+      <h2 className="heading">Scaling Latinx + Diverse Ventures</h2>
 
       <em>
         <p className="subheading">Latinx Incubator Chicago</p>
@@ -46,13 +44,13 @@ const Top = () => {
       </p>
 
       <em>
-        <p className="subheading">Educational Background</p>
+        <p className="subheading">Background</p>
       </em>
       <p>
-        Veronica attended The University of Pennsylvania and is a proud Chicago
-        native. She is thrilled to be back in her hometown working on a movement
-        to empower underrepresented entrepreneurs to build upward social and
-        economic mobility through technological innovation.
+        Veronica is a first generation Chicago native that grew up in the
+        Hermosa community. She is thrilled to be back in her hometown working on
+        a movement to Latinx and diverse businesses through tech innovation.
+        Veronica attended The University of Pennsylvania.
       </p>
       <h2 className="heading">
         Innovating the federal government through a digital transformation

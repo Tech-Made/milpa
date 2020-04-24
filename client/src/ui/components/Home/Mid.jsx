@@ -81,8 +81,10 @@ const Mid = () => {
       <div className="quote">
         <p>
           <em>
-            “milpa is a socioeconomic movement in the continuous pursuit of
-            knowledge-driven action” - Veronica Aguilar, Founder
+            <span className="bold">
+              “milpa is a socioeconomic movement in the continuous pursuit of
+              knowledge-driven action” - Veronica Aguilar, Founder
+            </span>
           </em>
         </p>
       </div>

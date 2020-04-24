@@ -1,5 +1,6 @@
 import React from "react";
 import logoblack from "../../../assets/logos/logo-black.png";
+import covid from "../../../assets/images/covid.png";
 import Sidebar from "../../components/Sidebar";
 
 const Top = () => {
@@ -16,6 +17,9 @@ const Top = () => {
           diverse entrepreneurs and communities.
         </p>
       </div>
+      <a href="https://forms.gle/CecRfwEFcZdNMUeTA" target="_blank">
+        <img className="covid-link" src={covid} alt="Survey" />
+      </a>
     </>
   );
 };

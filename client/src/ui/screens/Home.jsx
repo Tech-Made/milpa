@@ -6,6 +6,7 @@ import Principles from "../components/Home/Principles";
 import Services from "../components/Home/Services";
 import Partners from "../components/Home/Partners";
 import Community from "../components/Home/Community";
+import Origins from "../components/Home/Origins";
 
 const Home = () => {
   return (
@@ -21,6 +22,9 @@ const Home = () => {
       <Partners />
       <div id="community">
         <Community />
+      </div>
+      <div id="origins">
+        <Origins />
       </div>
     </div>
   );

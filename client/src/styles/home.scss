@@ -26,13 +26,34 @@
     display: flex;
     align-items: center;
     z-index: 1;
-
     position: sticky;
     p {
       font-size: 24px;
       text-align: center;
       font-family: $light;
       line-height: 30px;
+    }
+  }
+  .covid-link {
+    position: fixed;
+    left: 2%;
+    bottom: 2%;
+    z-index: 10;
+    max-width: 146px;
+    cursor: pointer;
+    animation-delay: 1.4s;
+    animation: flyin 2s;
+    animation-timing-function: ease;
+  }
+  @keyframes flyin {
+    0% {
+      left: -20%;
+    }
+    50% {
+      left: 4%;
+    }
+    100% {
+      left: 2%;
     }
   }
   .mid-section {
@@ -315,6 +336,12 @@
       }
     }
   }
+  .origins {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 86px;
+    // text-align: center;
+  }
 }
 
 .icon {
@@ -344,6 +371,13 @@
       p {
         font-size: 16px;
       }
+    }
+    .covid-link {
+      position: fixed;
+      // width: 112px;
+      right: 8%;
+      left: auto;
+      bottom: 10.4%;
     }
     .mid-section {
       padding: 5em 1em 2em 1em;
@@ -422,6 +456,10 @@
           max-width: 98vw;
         }
       }
+    }
+    .origins {
+      text-align: center;
+      max-width: 90vw;
     }
   }
 }
