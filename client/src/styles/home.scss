@@ -44,6 +44,11 @@
     animation-delay: 1.4s;
     animation: flyin 2s;
     animation-timing-function: ease;
+    &:hover {
+      -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
   }
   @keyframes flyin {
     0% {
@@ -379,6 +384,17 @@
       left: auto;
       bottom: 10.4%;
     }
+    @keyframes flyin {
+      0% {
+        right: -20%;
+      }
+      50% {
+        right: 4%;
+      }
+      100% {
+        right: 2%;
+      }
+    }
     .mid-section {
       padding: 5em 1em 2em 1em;
       clip-path: polygon(0 0, 100% 0, 100% 100%, 0 96%);
@@ -403,7 +419,7 @@
     .services-section {
       padding: 0 1em;
       .top-bg {
-        padding-bottom: 3em;
+        padding-bottom: 0;
         padding-top: 0em;
         .content {
           padding-top: 2em;
@@ -414,6 +430,7 @@
       .content {
         margin: -6em auto 0 auto;
         .price-section {
+          margin-top: 0;
           flex-direction: column;
           .price-box {
             width: 90vw;

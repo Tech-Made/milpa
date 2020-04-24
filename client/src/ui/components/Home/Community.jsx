@@ -8,14 +8,16 @@ const Community = () => {
         Are you an entrepreneur looking to connect with other diverse founders?
       </p>
       <div className="content">
-        <div className="partner">
-          <p className="inverse title">Comida Familiar</p>
-          <img src="https://i.ibb.co/D4r87ZH/dinner.png" />
-          <div className="bottom">
-            <p className="title">Join our Dinner Series.</p>
-            <p className="text">An entrepreneur dinner series </p>
+        <a href="https://forms.gle/CecRfwEFcZdNMUeTA" target="_blank">
+          <div className="partner">
+            <p className="inverse title">Comida Familiar</p>
+            <img src="https://i.ibb.co/D4r87ZH/dinner.png" />
+            <div className="bottom">
+              <p className="title">Join our Dinner Series.</p>
+              <p className="text">An entrepreneur dinner series </p>
+            </div>
           </div>
-        </div>
+        </a>
         <a
           href="https://www.facebook.com/groups/453436198776062/"
           target="_blank"
