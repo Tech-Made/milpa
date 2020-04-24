@@ -155,7 +155,7 @@
       padding-bottom: 0em;
       padding-top: 2em;
       position: relative;
-      z-index: -3;
+      // z-index: -1;
       .content {
         max-width: 1060px;
         margin: 0 auto;
@@ -291,6 +291,11 @@
         width: 314px;
         background-color: #0b0b0b;
         text-align: center;
+        &:hover {
+          -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
         .title {
           font-size: 20px;
           font-family: $regular;
@@ -308,15 +313,18 @@
           height: 160px;
           padding-left: 14px;
           padding-right: 14px;
+          display: flex;
+          flex-direction: column;
           .title {
             font-size: 20px;
             font-family: $regular;
             color: $primary;
             text-align: center;
-            padding-top: 8px;
+            // padding-top: 8px;
             padding-bottom: 8px;
           }
           .text {
+            padding-top: 12px;
             font-size: 18px;
             font-family: $light;
             color: $primary;

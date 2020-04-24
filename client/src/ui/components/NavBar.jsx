@@ -10,7 +10,7 @@ const NavBar = ({ scrollTop, scrollLeft }) => {
   const dontShow =
     window.location.pathname.includes("founder") ||
     window.location.pathname.includes("contact") ||
-    window.innerWidth < 400;
+    window.innerWidth < 460;
 
   return (
     <nav class="navbar">

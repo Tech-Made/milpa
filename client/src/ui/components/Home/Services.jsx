@@ -3,10 +3,25 @@ import React, { useState } from "react";
 const Services = () => {
   // const [open, setOpen] = useState(false);
 
+  // console.log("open:", open);
+
   return (
     <div className="services-section">
       <div className="top-bg">
         <div className="content">
+          {/* {!open && (
+            <p
+              style={{
+                color: "white",
+                cursor: "pointer",
+                textDecoration: "underline"
+              }}
+              onClick={() => setOpen(true)}
+              className="readmore inverse"
+            >
+              read more
+            </p>
+          )} */}
           <h2 className="inverse h1 pl">Our Services</h2>
           <div style={{ marginBottom: 2 }}>
             <p className="inverse">
@@ -19,6 +34,7 @@ const Services = () => {
             </p>
           </div>
           <br />
+
           {/* {!open && <button onClick={() => setOpen(true)}>Hel</button>} */}
           {/* {open && ( */}
           <>

@@ -13,7 +13,7 @@ const Community = () => {
             <p className="inverse title">Comida Familiar</p>
             <img src="https://i.ibb.co/D4r87ZH/dinner.png" />
             <div className="bottom">
-              <p className="text">An entrepreneur dinner series </p>
+              <p className="text">An entrepreneur dinner series.</p>
               <p className="title">Join Here</p>
             </div>
           </div>
