@@ -1,27 +1,14 @@
 import React, { useState } from "react";
 
 const Services = () => {
-  // const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  // console.log("open:", open);
+  console.log("open:", open);
 
   return (
     <div className="services-section">
       <div className="top-bg">
         <div className="content">
-          {/* {!open && (
-            <p
-              style={{
-                color: "white",
-                cursor: "pointer",
-                textDecoration: "underline"
-              }}
-              onClick={() => setOpen(true)}
-              className="readmore inverse"
-            >
-              read more
-            </p>
-          )} */}
           <h2 className="inverse h1 pl">Our Services</h2>
           <div style={{ marginBottom: 2 }}>
             <p className="inverse">
@@ -35,31 +22,43 @@ const Services = () => {
           </div>
           <br />
 
-          {/* {!open && <button onClick={() => setOpen(true)}>Hel</button>} */}
-          {/* {open && ( */}
-          <>
-            <p className="inverse">
-              <em>This is especially clear for Latinx-owned businesses.</em>
+          {!open && (
+            <p
+              style={{
+                color: "white",
+                cursor: "pointer",
+                textDecoration: "underline"
+              }}
+              onClick={() => setOpen(true)}
+              className="readmore inverse"
+            >
+              read more
             </p>
-
-            <div className="quotecontainer">
+          )}
+          {open && (
+            <>
               <p className="inverse">
-                <em>
-                  <span className="quote">
-                    “Over the past 10 years, the number of Latin[x]-owned
-                    businesses grew 34% compared to 1% for all business owners
-                    in the U.S. However, Latin[x]-owned companies tend to remain
-                    smaller than white-owned firms, with average revenues of
-                    $1.2 million per year for Latin[x]-owned firms compared to
-                    $2.3 million for non-Latin[x]-owned firms” <br />- 2019
-                    STATE OF LATINO ENTREPRENEURSHIP REPORT by Stanford Latino
-                    Entrepreneurship Initiative
-                  </span>
-                </em>
+                <em>This is especially clear for Latinx-owned businesses.</em>
               </p>
-            </div>
-          </>
-          {/* )} */}
+
+              <div className="quotecontainer">
+                <p className="inverse">
+                  <em>
+                    <span className="quote">
+                      “Over the past 10 years, the number of Latin[x]-owned
+                      businesses grew 34% compared to 1% for all business owners
+                      in the U.S. However, Latin[x]-owned companies tend to
+                      remain smaller than white-owned firms, with average
+                      revenues of $1.2 million per year for Latin[x]-owned firms
+                      compared to $2.3 million for non-Latin[x]-owned firms”{" "}
+                      <br />- 2019 STATE OF LATINO ENTREPRENEURSHIP REPORT by
+                      Stanford Latino Entrepreneurship Initiative
+                    </span>
+                  </em>
+                </p>
+              </div>
+            </>
+          )}
           <h3 className="inverse">Scaling Your Business</h3>
           <p className="inverse">
             Our strategic advising is aimed to scale your business whether
